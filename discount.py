@@ -12,7 +12,7 @@ while quantity != 0:
     print("enter '0' when done")
     if quantity != 0:
         price = float(input("What is the price? "))
-        subtotal = quantity * price
+        subtotal += quantity * price
 
 print(f"Total order: ${subtotal:.2f}")
 discount = 0
